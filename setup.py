@@ -1,6 +1,5 @@
 import setuptools
 
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -15,6 +14,9 @@ setuptools.setup(
     # url="https://github.com/pypa/sampleproject",
     url="https://github.com/frthesea/test2.git",
     packages=setuptools.find_packages(),
+    install_requires=[
+          'sqlalchemy', 'pandas', 'cryptography', 'os',
+    ],
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
