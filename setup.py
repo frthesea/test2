@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/frthesea/test2.git",
     packages=setuptools.find_packages(),
     install_requires=[
-          'sqlalchemy', 'pandas', 'cryptography', 'os',
+          'sqlalchemy', 'pandas', 'cryptography',
     ],
     classifiers=(
         "Programming Language :: Python :: 3",
